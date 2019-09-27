@@ -11,13 +11,13 @@ public class Uppgift35{
 
       int varapris;
 	  int moms;
-	  int prismoms;
+	  int prismedmoms;
       varapris = Integer.parseInt(JOptionPane.showInputDialog("Varans pris?"));
 	  moms = Integer.parseInt(JOptionPane.showInputDialog("Moms (%)"));
-	  prismoms = varapris / moms;
-	  prismoms = varapris + moms;
+	  prismedmoms = varapris + (moms / 10);
+	
 	  JOptionPane.showMessageDialog(null, "Varans pris utan moms:" + varapris);
-	  JOptionPane.showMessageDialog(null, "Varans pris med " + moms + "% moms:" + prismoms);
+	  JOptionPane.showMessageDialog(null, "Varans pris med " + moms + "% moms:" + prismedmoms);
 	   
 	   
 
