@@ -6,7 +6,7 @@ Programmer Pierre Lundström
 import java.util.*;
 import javax.swing.*;
 
-public class Uppgift36{ 
+public class Uppgift37{ 
    public static void main(String[] args) {
 
       int tid;
